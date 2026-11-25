@@ -22,3 +22,7 @@ In the **Layouts** tab, set **Plus**, **Enter** and **Zero** to match your build
 ## Bootloader
 
 The bootloader shortcuts are still available in VIAL. You should see these on Layer 2.
+
+## Special Thanks
+
+Thank you to Shiva1796/Nyxkeys for sharing their original QMK/VIA code. Most of it carries over to VIAL seamlessly.

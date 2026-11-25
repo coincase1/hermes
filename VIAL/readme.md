@@ -1,10 +1,8 @@
 # NyxKeys Hermes - Vial Firmware
 
-The standard Hermes: a 24-key numpad with a dedicated function row (F1–F4), optional 2U Plus, Enter and Zero keys, and a utility column (side depending*).
-
-## Alternative Firmware - Using VIAL
-
 (from Coincase)
+
+The standard Hermes: a 24-key numpad with a dedicated function row (F1–F4), optional 2U Plus, Enter and Zero keys, and a utility column (side depending on orthodox/southpaw*).
 
 The Hermes is shipped with VIA flashed on the board. As mentioned in the main repo, the Hermes is not in VIA's official keyboard list yet (but will be in the future). Hermes users need to go into VIA settings and enabling V2 definitions for now because of this.
 

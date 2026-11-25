@@ -1,34 +1,26 @@
 # NyxKeys Hermes
 
+
 The standard Hermes: a 24-key numpad with a dedicated function row (F1–F4), optional 2U Plus, Enter and Zero keys, and a utility column (side depending*).
 
 ## Alternative Firmware - Using VIAL
 
-The Hermes is shipped with VIA flashed on the board. As mentioned in the main repo, the Hermes is not in VIA's official keyboard list yet. Because of this, users need to go into VIA settings and enabling V2 definitions.
+(from Coincase)
 
-VIAL has some advantages over VIA. These include but are not limited to:
+The Hermes is shipped with VIA flashed on the board. As mentioned in the main repo, the Hermes is not in VIA's official keyboard list yet (but will be in the future). Hermes users need to go into VIA settings and enabling V2 definitions for now because of this.
 
-
-The Hermes is not in VIA's official keyboard list yet, so VIA will show *"could not find a v3 definition for Hermes"* until you load the definition file:
-
-1. Download [`hermes_via.json`](hermes_via.json).
-2. Open [usevia.app](https://usevia.app) in Chrome or Edge.
-3. Open **Settings** and turn on **Show Design tab**.
-4. In the **Design** tab, make sure **Use V2 definitions (deprecated)** is **off**.
-5. Click **Load** and select `hermes_via.json`. It should show *NyxKeys Hermes*.
-6. Switch to **Configure** and authorize the keyboard. If it doesn't appear, unplug and replug it.
-
-VIA remembers the definition in your browser. Repeat these steps if you switch browsers or clear site data.
-
-In the **Layouts** tab, set **Plus**, **Enter** and **Zero** to match your build: **2U** for a single large key, **Split** for two 1U keys.
+Both VIA and VIAL allow you to remap keys. There are some subtle differences but notably approval isn't needed by a maintainer authority for VIAL.
 
 ## Flashing the firmware
 
+1. Downlaod ['
 1. Download [`hermes_main_v1.0.bin`](hermes_main_v1.0.bin) and install [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
 2. Open QMK Toolbox and select the `.bin` file.
 3. Put the Hermes into bootloader mode (see below). QMK Toolbox should show *"STM32 DFU device connected"*.
 4. Click **Flash** and wait for it to finish.
 5. Clear the EEPROM after flashing (`Fn` + `.` + `2`) so VIA picks up the default keymap.
+
+In the **Layouts** tab, set **Plus**, **Enter** and **Zero** to match your build: **2U** for a single large key, **Split** for two 1U keys.
 
 ## Bootloader
 

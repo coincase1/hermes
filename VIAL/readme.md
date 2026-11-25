@@ -1,6 +1,6 @@
 # NyxKeys Hermes - Vial Firmware
 
-(from Coincase)
+(Instructions written by Coincase)
 
 The standard Hermes: a 24-key numpad with a dedicated function row (F1–F4), optional 2U Plus, Enter and Zero keys, and a utility column (side depending on orthodox/southpaw*).
 

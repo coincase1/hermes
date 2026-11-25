@@ -12,7 +12,7 @@ Both VIA and VIAL allow you to remap keys. There are some subtle differences but
 
 ## Flashing the firmware
 
-1. Download ['hermes_sp_vial.bin'](hermes_sp_vial.bin) and install [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
+1. Download either ['hermes_vial.bin'](hermes_vial.bin) OR ['hermes_sp_vial.bin'](hermes_sp_vial.bin) and install [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
 2. Hold down the "reset" switch on the back of the hermes PCB while connecting it to your PC.
 3. Open QMK Toolbox. There should be one STM32 device listed in yellow or an alternative color, indicating that it is ready to be flashed.
 4. Select the '.bin' file from #1 with the Local File "Open" button.
